@@ -1,0 +1,22 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background: #353434;
+    padding: 0 30px;
+    position: sticky;
+    top: 0;
+}
+.link{
+    display: flex;
+}
+.link a{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.link a:hover{
+    color: orange;
+}

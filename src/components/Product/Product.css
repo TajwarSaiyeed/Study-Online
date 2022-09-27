@@ -1,0 +1,32 @@
+.item{
+    border: 1px solid #000;
+    border-radius: 10px;
+    text-align: left;
+    position: relative;
+}
+.item img{
+    width: 320px;
+    height: 320px;
+    border-radius: 7px;
+    margin: 10px;
+}
+
+.item .info{
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+
+.cart-btn{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: orange;
+    outline: none;
+    height: 45px;
+    margin-top: 50px;
+    outline: none;
+    border: none;
+    border-radius: 0 0 10px 10px;
+    color: #fff;
+    font-size: 20px;
+}
