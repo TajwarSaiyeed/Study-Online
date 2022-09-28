@@ -1,6 +1,7 @@
 .shop-container{
     display: grid;
     grid-template-columns: 4fr 1fr;
+    position: relative;
 }
 .product-container{
     position: relative;
@@ -11,5 +12,9 @@
 }
 
 .cart-container{
-    background-color: blueviolet;
+    position: fixed;
+    right:0;
+    width: 270px;
+    height: 100%; 
+    background-color: orange;
 }
