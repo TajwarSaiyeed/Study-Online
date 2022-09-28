@@ -19,8 +19,21 @@
 }
 
 
-@media  screen and (max-width: 991px) {
+@media  screen and (max-width: 768px) {
     .product-container{
-        grid-template-columns: repeat(1, 0.5fr);
+        grid-template-columns: repeat(1, 0.75fr);
+    }
+    .cart-container{
+        width: 300px;
+    }
+}
+
+@media (max-width: 441px) {
+    .product-container{
+        grid-template-columns: repeat(1, 0.25fr);
+    }
+    .cart-container{
+        width: 200px;
+        font-size: 11px;
     }
 }

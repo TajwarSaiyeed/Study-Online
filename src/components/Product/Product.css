@@ -36,3 +36,13 @@
 .cart-btn:hover{
     background: tomato;
 }
+
+@media  screen and (max-width: 768px) {
+    .item{
+        width: 220px;
+    }
+    .item img{
+        width: 200px;
+        height: 200px;
+    }
+}
