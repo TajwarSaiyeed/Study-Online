@@ -19,7 +19,7 @@
         "id" : "03",
         "name" : "Math",
         "desc" : "Math Crash Course",
-        "courseImg" : "http://study-online-abid.netlify.app/courses/mathmatics.jpg",
+        "courseImg" : "https://study-online-abid.netlify.app/courses/mathmatics.jpg",
         "level" : "HSC",
         "timeRequired" : 20,
         "format": "hr"
@@ -27,7 +27,7 @@
         "id" : "04",
         "name" : "Biology",
         "desc" : "Biology Crash Course",
-        "courseImg" : "http://study-online-abid.netlify.app/courses/biology.jpg",
+        "courseImg" : "https://study-online-abid.netlify.app/courses/biology.jpg",
         "level" : "HSC",
         "timeRequired" : 15,
         "format": "hr"
@@ -35,7 +35,7 @@
         "id" : "05",
         "name" : "Science",
         "desc" : "Science Crash Course",
-        "courseImg" : "http://study-online-abid.netlify.app/courses/science.jpg",
+        "courseImg" : "https://study-online-abid.netlify.app/courses/science.jpg",
         "level" : "JSC",
         "timeRequired" : 12,
         "format": "hr"
@@ -43,7 +43,7 @@
         "id" : "06",
         "name" : "English",
         "desc" : "English Crash Course",
-        "courseImg" : "http://study-online-abid.netlify.app/courses/english.jpg",
+        "courseImg" : "https://study-online-abid.netlify.app/courses/english.jpg",
         "level" : "For everyone",
         "timeRequired" : 20,
         "format": "hr"
