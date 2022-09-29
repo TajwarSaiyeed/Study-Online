@@ -10,7 +10,7 @@ const Info = () => {
             <Myself />
             <Break />
             <Exercise/>
-            <Button text="Activity Completed" style={{bottom: "40px", width: "290px"}}/>
+            <Button text="Activity Completed" style={{bottom: "40px", width: "285px"}}/>
         </div>
     );
 };

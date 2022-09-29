@@ -12,7 +12,7 @@ const Course = (props) => {
                 <p>For : {level}</p>
                 <p>Time Required : {timeRequired}</p>
             </div>
-            <Button text="Add to Cart" style={{bottom: "0", width: "95%"}}/>
+            <Button text="Add to Cart" style={{bottom: "0", width: "95%", position:"absolute"}}/>
         </div>
     );
 };
