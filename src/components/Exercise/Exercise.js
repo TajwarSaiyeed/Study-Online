@@ -4,7 +4,7 @@ import "./Exercise.css"
 const Exercise = (props) => {
     const {exerciseTime, breakTimeAdd} = props;
     const getBreakLocal = localStorage.getItem("break");
-    let brTime;
+    let brTime = 0;
     if(getBreakLocal){
         brTime = getBreakLocal;
     } else{
