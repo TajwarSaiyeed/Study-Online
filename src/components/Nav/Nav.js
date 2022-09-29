@@ -5,7 +5,7 @@ const Nav = () => {
     return (
         <nav className='header'>
             <img src={logo} alt="" />
-            <h2>Study Online</h2>
+            <h2><span style={{color: "#3298ff"}}>Study</span> Online</h2>
         </nav>
     );
 };
