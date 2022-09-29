@@ -1,18 +1,19 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
 import Courses from './components/Courses/Courses';
 import Info from './components/Info/Info';
-function App() {
-  
-  const clickMe = (id) =>{
-    console.log(id);
-}
 
+function App() {
+  const [course, setCourse] = useState([])
+  const exerciseTime = (selectCourse) => {
+    const newCourse = [...course, selectCourse];
+    setCourse(newCourse);
+  }
   return (
     <div className="App">
       <div className="container">
-        <Courses clickMe={clickMe}/>
-        <Info />
+        <Courses exerciseTime={exerciseTime}/>
+        <Info course={course} />
       </div>
     </div>
   );

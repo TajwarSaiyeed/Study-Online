@@ -2,9 +2,9 @@ import React from 'react';
 import "./Button.css"
 
 const Button = (props) => {
-    const {id,text,style,clickMe} = props;
+    const {course,text,style,exerciseTime} = props;
     return (
-        <button onClick={() => clickMe(id)} className='cart-btn' style={style}>{text}</button>
+        <button onClick={() => exerciseTime(course)} className='cart-btn' style={style}>{text}</button>
     );
 };
 
