@@ -9,8 +9,10 @@ import Button from '../Button/Button';
 const Info = ({course}) => {    
     const [breakTimeAdded, setBreakTimeAdded] = useState([0]);
     const breakTime = (e) =>{
+        
         const text = e.target.innerText;
         const newText = text.slice(0,2);
+        localStorage.setItem("break",newText);
         setBreakTimeAdded(newText);
     }
     return (
