@@ -3,7 +3,7 @@
         "id" : "01",
         "name" : "Physics",
         "desc" : "Physics Crash Course",
-        "courseImg" : "http://study-online-abid.netlify.app/courses/physics.jpg",
+        "courseImg" : "https://study-online-abid.netlify.app/courses/physics.jpg",
         "level" : "HSC",
         "timeRequired" : 18,
         "format": "hr"
@@ -11,7 +11,7 @@
         "id" : "02",
         "name" : "Chemistry",
         "desc" : "Chemistry Crash Course",
-        "courseImg" : "http://study-online-abid.netlify.app/courses/chemistry.jpg",
+        "courseImg" : "https://study-online-abid.netlify.app/courses/chemistry.jpg",
         "level" : "HSC",
         "timeRequired" : 16,
         "format": "hr"
