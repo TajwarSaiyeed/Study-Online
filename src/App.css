@@ -5,7 +5,7 @@
   background: #f5f5f5;
   min-height: 95vh;
 }
-@media screen and (max-width: 441px){
+@media screen and (max-width: 591px){
 .container {
     display: flex;
     align-items: center;

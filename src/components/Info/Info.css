@@ -8,10 +8,12 @@
 }
 
 
-@media screen and (max-width: 441px) {
+@media screen and (max-width: 591px) {
     .information{
         position: absolute;
         top: 100%;
+        left: 50%;
+        transform: translateX(-50%);
         width: 340px;
         height: 700px;
         display: flex;

@@ -10,7 +10,7 @@
 }
 
 
-@media screen and (max-width: 441px) {
+@media screen and (max-width: 591px) {
     .courses{
         grid-template-columns: repeat(1, 1fr);
     }
