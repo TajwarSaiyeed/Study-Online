@@ -1,0 +1,45 @@
+[
+    {
+        "id" : "01",
+        "name" : "Physics",
+        "desc" : "Physics Crash Course",
+        "courseImg" : "http://localhost:3000/courses/physics.jpg",
+        "level" : "HSC",
+        "timeRequired" : "18hr"
+    },{
+        "id" : "02",
+        "name" : "Chemistry",
+        "desc" : "Chemistry Crash Course",
+        "courseImg" : "http://localhost:3000/courses/chemistry.jpg",
+        "level" : "HSC",
+        "timeRequired" : "16hr"
+    },{
+        "id" : "03",
+        "name" : "Math",
+        "desc" : "Math Crash Course",
+        "courseImg" : "http://localhost:3000/courses/mathmatics.jpg",
+        "level" : "HSC",
+        "timeRequired" : "20hr"
+    },{
+        "id" : "04",
+        "name" : "Biology",
+        "desc" : "Biology Crash Course",
+        "courseImg" : "http://localhost:3000/courses/biology.jpg",
+        "level" : "HSC",
+        "timeRequired" : "15hr"
+    },{
+        "id" : "05",
+        "name" : "Science",
+        "desc" : "Science Crash Course",
+        "courseImg" : "http://localhost:3000/courses/science.jpg",
+        "level" : "JSC",
+        "timeRequired" : "12hr"
+    },{
+        "id" : "06",
+        "name" : "English",
+        "desc" : "English Crash Course",
+        "courseImg" : "http://localhost:3000/courses/english.jpg",
+        "level" : "For everyone",
+        "timeRequired" : "20hr"
+    }
+]

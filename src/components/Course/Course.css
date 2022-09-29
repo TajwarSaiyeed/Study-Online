@@ -1,0 +1,7 @@
+.course{
+    border: 1px solid #5d7777;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
