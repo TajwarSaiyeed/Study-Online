@@ -23,7 +23,7 @@
     background-color: #3298ff;
     color: #fff;
 }
-@media screen and (max-width: 591px) {
+@media screen and (max-width: 751px) {
     .break{
         width: 350px
     }
