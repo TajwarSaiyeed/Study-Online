@@ -1,7 +1,7 @@
 import React from 'react';
+import Button from '../Button/Button';
 import "./Course.css";
 const Course = (props) => {
-    console.log(props.course);
     const {name,courseImg,desc, level, timeRequired} = props.course;
     return (
         <div className='course'>
@@ -12,8 +12,7 @@ const Course = (props) => {
                 <p>For : {level}</p>
                 <p>Time Required : {timeRequired}</p>
             </div>
-                <button className='cart-btn'>Add To Cart</button>
-            
+            <Button text="Add to Cart" style={{bottom: "0", width: "95%"}}/>
         </div>
     );
 };

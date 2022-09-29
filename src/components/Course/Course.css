@@ -20,21 +20,3 @@
     padding-left: 10px;
     margin-bottom: 50px;
 }
-.cart-btn {
-    position: absolute;
-    bottom: 0;
-    width: 95%;
-    height: 45px;
-    font-size: 18px;
-    font-weight: 600;
-    border-radius: 7px;
-    border: none;
-    background: #3298ff;
-    color: #fffdfd;
-    margin: 7px;
-    cursor: pointer;
-}
-
-.cart-btn:hover{
-    background: #2b84dd;
-}
