@@ -3,10 +3,12 @@ import "./Info.css";
 import Myself from '../Myself/Myself';
 import Break from '../Break/Break';
 import Exercise from '../Exercise/Exercise';
-import Button from '../Button/Button';
+import 'react-toastify/dist/ReactToastify.css';
+import { toast, ToastContainer } from 'react-toastify';
 
 
-const Info = ({course}) => {    
+const Info = ({course}) => {  
+    const notify = () => toast.success("Activity Completed",{position: toast.POSITION.TOP_CENTER}); 
     const [breakTimeAdded, setBreakTimeAdded] = useState([0]);
     const breakTime = (e) =>{
         
@@ -20,7 +22,8 @@ const Info = ({course}) => {
             <Myself />
             <Break breakTime={breakTime} />
             <Exercise exerciseTime={course} breakTimeAdd={breakTimeAdded}/>
-            <Button text="Activity Completed" style={{bottom: "40px", width: "285px"}}/>
+            <button className='activity-btn' onClick={notify}>Activity Completed</button>
+            <ToastContainer />
         </div>
     );
 };

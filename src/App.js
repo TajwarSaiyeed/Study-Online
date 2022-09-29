@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 import Courses from './components/Courses/Courses';
-import Info from './components/Info/Info';
+import Info from './components/Info/Info'
 
 function App() {
   const [course, setCourse] = useState([]);
